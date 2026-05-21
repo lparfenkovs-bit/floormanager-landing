@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="floormanager.app keeps shop-floor routing in sequence, protects operator workflows, and makes inventory deductions automatic."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <title>floormanager.app | Shop-floor control for modern manufacturers</title>
+    <script>
+      document.documentElement.classList.add("js-enabled");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-open="false">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="floormanager.app home">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <span class="brand-copy">
+            <strong>floormanager.app</strong>
+            <span>Shop-floor control for modern manufacturers</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav id="site-nav" class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-small header-cta" href="pricing.html">Request quote</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Built for LA Workshop and private shop floors</p>
+            <h1>Keep routing in sequence and the floor in control.</h1>
+            <p class="hero-text">
+              floormanager.app stops work from drifting out of order, blocks downstream stations until Saw is
+              finished, and gives operators a tablet-first interface that works in the real world.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="pricing.html">See pricing</a>
+              <a class="btn btn-secondary" href="features.html">Explore features</a>
+            </div>
+
+            <ul class="hero-points">
+              <li>Saw gating enforced</li>
+              <li>Inventory deducted automatically</li>
+              <li>Admin-only costing and settings</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal" aria-label="Product preview">
+            <div class="hero-visual-grid">
+              <div class="panel panel-chip panel-chip-left">Sequence-safe routing</div>
+              <div class="panel panel-chip panel-chip-right">Mobile first</div>
+            </div>
+
+            <div class="floor-card">
+              <div class="floor-card-top">
+                <div>
+                  <p class="panel-kicker">What the floor sees</p>
+                  <h2>One order. One route. One state.</h2>
+                </div>
+                <span class="status-pill status-pill-live">Live</span>
+              </div>
+
+              <div class="status-strip">
+                <div>
+                  <span class="status-label">Saw</span>
+                  <strong>Finished first</strong>
+                </div>
+                <div>
+                  <span class="status-label">Next station</span>
+                  <strong>Unlocked only after save</strong>
+                </div>
+                <div>
+                  <span class="status-label">Completion</span>
+                  <strong>Good parts must meet the order</strong>
+                </div>
+              </div>
+
+              <div class="progress-block">
+                <div class="progress-head">
+                  <span>Sequence lock</span>
+                  <strong>No parallel Saw</strong>
+                </div>
+                <div class="progress-bar" aria-hidden="true">
+                  <span style="width: 58%"></span>
+                </div>
+                <p>
+                  The next workcenter stays locked until Saw is marked finished with a saved cut quantity. That keeps
+                  routing honest and prevents hidden work from starting early.
+                </p>
+              </div>
+
+              <div class="station-stack">
+                <article class="station station-done">
+                  <div>
+                    <span>Saw</span>
+                    <strong>Finished</strong>
+                  </div>
+                  <p>Saved cut quantity in place</p>
+                </article>
+                <article class="station station-ready">
+                  <div>
+                    <span>Router</span>
+                    <strong>Unlocked</strong>
+                  </div>
+                  <p>Ready for the next operator</p>
+                </article>
+                <article class="station station-wait">
+                  <div>
+                    <span>Quality Check</span>
+                    <strong>Always near the end</strong>
+                  </div>
+                  <p>Total-time behavior for the final two operations</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">What clients get</p>
+            <h2>A site that explains the product before the demo starts.</h2>
+            <p>
+              The marketing flow is split across pages so each topic gets enough room: features, pricing, and contact
+              each have their own path instead of one crowded scroll.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <a class="feature-card feature-card-link reveal" href="features.html">
+              <p class="feature-index">01</p>
+              <h3>Features</h3>
+              <p>Show sequence gating, operator controls, inventory behavior, and the shop-floor rules in plain language.</p>
+            </a>
+            <a class="feature-card feature-card-link reveal" href="pricing.html">
+              <p class="feature-index">02</p>
+              <h3>Pricing</h3>
+              <p>Present a clean pilot offer, a rollout offer, and a scale option with enough detail to support a real sale.</p>
+            </a>
+            <a class="feature-card feature-card-link reveal" href="contact.html">
+              <p class="feature-index">03</p>
+              <h3>Contact</h3>
+              <p>Give clients a fast way to reach sales with the right information about floors, workcenters, and rollout needs.</p>
+            </a>
+            <article class="feature-card reveal">
+              <p class="feature-index">04</p>
+              <h3>Clear rules</h3>
+              <p>Keep Saw gating, sequential routing, time permissions, and admin-only settings visible on every page.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container workflow-note reveal">
+          <div>
+            <p class="eyebrow">Core promise</p>
+            <h3>Sequence first, then speed.</h3>
+          </div>
+          <p>
+            The product is designed around the floor rules that matter most: no parallel Saw, strict operation order,
+            mobile-friendly execution, and automatic inventory deduction at completion.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>floormanager.app</strong>
+          <p>Shop-floor control for manufacturers that need sequence, visibility, and control.</p>
+        </div>
+        <div class="footer-links">
+          <a href="features.html">Features</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> floormanager.app</p>
+      </div>
+    </footer>
+  </body>
+</html>

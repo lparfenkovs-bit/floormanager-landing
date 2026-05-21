@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Contact floormanager.app to request a demo, pilot, or rollout for your shop floor."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <title>Contact | floormanager.app</title>
+    <script>
+      document.documentElement.classList.add("js-enabled");
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header" data-open="false">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="floormanager.app home">
+          <span class="brand-mark" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <span class="brand-copy">
+            <strong>floormanager.app</strong>
+            <span>Shop-floor control for modern manufacturers</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav id="site-nav" class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="features.html">Features</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-small header-cta" href="pricing.html">Pricing</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section page-hero">
+        <div class="container page-hero-grid">
+          <div class="page-hero-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h1>Tell us how your floor runs today.</h1>
+            <p class="hero-text">
+              Send the workcenter count, the routing shape, and whether you want a pilot or a full rollout. We will
+              reply with the right starting point instead of a generic brochure.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="mailto:hello@floormanager.app?subject=floormanager.app%20demo%20request">
+                Email sales
+              </a>
+              <a class="btn btn-secondary" href="pricing.html">Review offers</a>
+            </div>
+          </div>
+
+          <div class="page-hero-panel reveal">
+            <div class="contact-box">
+              <p class="panel-kicker">What to include</p>
+              <ul class="contact-list">
+                <li>Number of workcenters on the floor</li>
+                <li>Whether Saw gating is required</li>
+                <li>How many operators need time input permissions</li>
+                <li>Any inventory or dimension search constraints</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <article class="contact-card reveal">
+            <p class="eyebrow">Best next step</p>
+            <h2>Book a short discovery call.</h2>
+            <p>
+              We will use the call to map the route, confirm the required permissions, and decide whether the first
+              deployment should be a pilot or a rollout.
+            </p>
+            <a class="btn btn-primary btn-full" href="mailto:hello@floormanager.app?subject=floormanager.app%20discovery%20call">
+              Book discovery
+            </a>
+          </article>
+
+          <article class="contact-card contact-card-alt reveal">
+            <p class="eyebrow">Direct contact</p>
+            <h2>hello@floormanager.app</h2>
+            <p>
+              If email is easier, send a short note and we will follow up with the right pricing path and implementation
+              details.
+            </p>
+            <div class="contact-actions">
+              <a class="btn btn-secondary" href="mailto:hello@floormanager.app">Open email</a>
+              <a class="btn btn-secondary" href="index.html">Back home</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container workflow-note reveal">
+          <div>
+            <p class="eyebrow">GitHub sync prep</p>
+            <h3>Files are staged locally and ready for the repo.</h3>
+          </div>
+          <p>
+            The GitHub write step was blocked by the account usage limit during this session, so the site has been
+            prepared locally with the page split, pricing copy, and supporting assets ready to sync once quota resets.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <strong>floormanager.app</strong>
+          <p>Shop-floor control for manufacturers that need sequence, visibility, and control.</p>
+        </div>
+        <div class="footer-links">
+          <a href="features.html">Features</a>
+          <a href="pricing.html">Pricing</a>
+          <a href="index.html">Home</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> floormanager.app</p>
+      </div>
+    </footer>
+  </body>
+</html>
